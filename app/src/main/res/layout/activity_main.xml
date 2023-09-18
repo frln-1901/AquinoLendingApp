@@ -170,4 +170,69 @@
         tools:layout_editor_absoluteX="174dp"
         tools:layout_editor_absoluteY="415dp" />
 
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_width="109dp"
+        android:layout_height="48dp"
+        android:hint="Last Name"
+        tools:layout_editor_absoluteX="151dp"
+        tools:layout_editor_absoluteY="97dp"
+        app:layout_constraintHorizontal_bias="0.08"
+        app:layout_constraintVertical_bias="0.14"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_width="112dp"
+        android:layout_height="48dp"
+        android:hint="First Name"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="94dp"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintVertical_bias="0.14"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_width="112dp"
+        android:layout_height="48dp"
+        android:hint="M.I"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="94dp"
+        app:layout_constraintHorizontal_bias="0.90"
+        app:layout_constraintVertical_bias="0.14"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_width="112dp"
+        android:layout_height="48dp"
+        android:hint="Occupation"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="94dp"
+        app:layout_constraintHorizontal_bias="0.45"
+        app:layout_constraintVertical_bias="0.27"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_width="75dp"
+        android:layout_height="48dp"
+        android:hint="Amount"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="94dp"
+        app:layout_constraintHorizontal_bias="0.40"
+        app:layout_constraintVertical_bias="0.37"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
